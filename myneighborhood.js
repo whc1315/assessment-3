@@ -17,3 +17,13 @@ function myFood() {
 }
 
 randRest.addEventListener("click", myFood);
+
+randRest.addEventListener("mouseover", () => {
+  randRest.style.backgroundColor = "orange";
+  randRest.style.color = "purple";
+});
+
+randRest.addEventListener("mouseout", () => {
+  randRest.style.backgroundColor = "purple";
+  randRest.style.color = "orange";
+});

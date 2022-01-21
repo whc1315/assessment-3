@@ -63,9 +63,9 @@ img {
 }
 
 .foodBtn {
-  background-color: rgb(119, 0, 255);
+  background-color: purple;
   border: 2px solid black;
-  color: rgb(252, 125, 21);
+  color: orange;
   padding: 15px 15px;
   text-align: center;
   text-decoration: underline;
